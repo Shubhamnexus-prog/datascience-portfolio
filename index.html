@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Gupta — Data Scientist</title>
+    <meta name="description"
+        content="Portfolio of Shubham Gupta — Motivated Data Scientist with hands-on experience in machine learning, deep learning, statistical modeling, and end-to-end data science pipelines.">
+    <meta name="keywords" content="Shubham Gupta, Data Scientist, Machine Learning, Python, Portfolio">
+    <meta name="author" content="Shubham Gupta">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                SHUBHAM GUPTA
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <a href="mailto:sg3359319@gmail.com" class="nav-cta">
+                <i class="fas fa-paper-plane"></i> Hire Me
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+    <style>
+        /* inline adjustment/override to support side-by-side logo layout if needed */
+    </style>
+
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="particle-field" id="particleField"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">
+                    <span class="wave">👋</span> Hi, I am
+                </p>
+                <h1 class="hero-name">
+                    <span class="name-gradient">Shubham Gupta</span>
+                </h1>
+                <div class="hero-title-wrapper">
+                    <span class="hero-title-prefix">I am a </span>
+                    <span class="hero-title" id="typewriter"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Motivated Data Scientist with hands-on experience in machine learning, deep learning,
+                    statistical modeling, and end-to-end data science pipelines. Proficient in Python,
+                    Scikit-learn, TensorFlow/Keras, and SQL with a strong background in EDA, feature engineering,
+                    model building, and deployment.
+                </p>
+                <div class="hero-socials">
+                    <a href="https://www.linkedin.com/in/shubham-gupta-2b04693a1" target="_blank" class="social-icon"
+                        aria-label="LinkedIn" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Shubhamnexus-prog" target="_blank" class="social-icon"
+                        aria-label="GitHub" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_shub._gupta/" target="_blank" class="social-icon"
+                        aria-label="Instagram" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:sg3359319@gmail.com" class="social-icon" aria-label="Email" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-folder-open"></i> My Projects
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <img src="assets/hero-illustration.png" alt="Data Scientist Illustration" class="hero-image">
+                    <div class="floating-badge badge-1">
+                        <i class="fab fa-python"></i> Python
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fas fa-brain"></i> ML
+                    </div>
+                    <div class="floating-badge badge-3">
+                        <i class="fas fa-chart-line"></i> Analytics
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;About Me /&gt;</span>
+                <h2 class="section-title">Know Who I Am</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card about-info">
+                    <div class="card-glow"></div>
+                    <h3 class="about-card-title">
+                        <span class="code-tag">&lt;More about Me /&gt;</span>
+                    </h3>
+                    <p class="about-text">
+                        Hello! I'm <strong>Shubham Gupta</strong>, a motivated Data Scientist based in
+                        <strong>Hyderabad, Telangana</strong>. I hold a <strong>Bachelor of Computer Applications
+                            (BCA)</strong>
+                        with a CGPA of 7.61 from Shambhunath Institute of Engineering & Technology, Prayagraj.
+                    </p>
+                    <p class="about-text">
+                        I specialize in building end-to-end machine learning pipelines — from exploratory data analysis
+                        and
+                        feature engineering to model training, evaluation, and deployment. I'm adept at applying both
+                        supervised and unsupervised ML algorithms to solve real-world business problems and deliver
+                        actionable, data-driven insights.
+                    </p>
+                    <p class="about-text">
+                        My tech stack includes <strong>Python, Scikit-learn, TensorFlow/Keras, Pandas, SQL</strong>, and
+                        deployment tools like <strong>Streamlit, Flask, and REST APIs</strong>. I enjoy turning complex
+                        data into meaningful stories and impactful applications.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="4">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="10">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">ML Models Built</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Tools & Tech</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card about-highlights">
+                    <div class="card-glow"></div>
+                    <h3 class="about-card-title">
+                        <span class="code-tag">&lt;Highlights /&gt;</span>
+                    </h3>
+                    <ul class="highlight-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Achieved <strong>99.2% accuracy</strong> on Credit Card Fraud Detection with 0.97
+                                PR-AUC</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Built churn prediction pipeline achieving <strong>92% accuracy</strong> and 0.91
+                                ROC-AUC</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>House price model with <strong>R² = 0.91</strong>, ranked top 15% on Kaggle</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>NLP sentiment classifier with <strong>89% accuracy</strong> on 10K+ reviews</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Deployed interactive <strong>Streamlit apps</strong> for real-time predictions</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Certified in <strong>Data Science & AI/ML</strong> — Naresh i Technologies</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;My Skills /&gt;</span>
+                <h2 class="section-title">Technical Arsenal</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip"><i class="fab fa-python"></i> Python</div>
+                        <div class="skill-chip"><i class="fas fa-database"></i> SQL</div>
+                    </div>
+                </div>
+                <!-- Machine Learning -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>Machine Learning</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">Supervised Learning</div>
+                        <div class="skill-chip">Unsupervised Learning</div>
+                        <div class="skill-chip">Regression</div>
+                        <div class="skill-chip">Classification</div>
+                        <div class="skill-chip">Clustering</div>
+                        <div class="skill-chip">Random Forest</div>
+                        <div class="skill-chip">XGBoost</div>
+                        <div class="skill-chip">Gradient Boosting</div>
+                        <div class="skill-chip">SVM</div>
+                    </div>
+                </div>
+                <!-- Deep Learning & AI -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>Deep Learning & AI</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">Neural Networks</div>
+                        <div class="skill-chip">LSTM</div>
+                        <div class="skill-chip">RNN</div>
+                        <div class="skill-chip">CNN</div>
+                        <div class="skill-chip">TensorFlow</div>
+                        <div class="skill-chip">Keras</div>
+                        <div class="skill-chip">Model Training & Tuning</div>
+                    </div>
+                </div>
+                <!-- Data Science -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-chart-bar"></i>
+                        <h3>Data Science</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">EDA</div>
+                        <div class="skill-chip">Feature Engineering</div>
+                        <div class="skill-chip">Feature Selection</div>
+                        <div class="skill-chip">Data Cleaning</div>
+                        <div class="skill-chip">Data Wrangling</div>
+                        <div class="skill-chip">Hypothesis Testing</div>
+                        <div class="skill-chip">Statistical Analysis</div>
+                        <div class="skill-chip">Cross-validation</div>
+                        <div class="skill-chip">Hyperparameter Tuning</div>
+                    </div>
+                </div>
+                <!-- NLP -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-language"></i>
+                        <h3>NLP</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">Text Preprocessing</div>
+                        <div class="skill-chip">Tokenization</div>
+                        <div class="skill-chip">TF-IDF</div>
+                        <div class="skill-chip">Sentiment Analysis</div>
+                    </div>
+                </div>
+                <!-- Libraries & Visualization -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Data Libraries & Visualization</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">Pandas</div>
+                        <div class="skill-chip">NumPy</div>
+                        <div class="skill-chip">Scikit-learn</div>
+                        <div class="skill-chip">Statsmodels</div>
+                        <div class="skill-chip">SciPy</div>
+                        <div class="skill-chip">Matplotlib</div>
+                        <div class="skill-chip">Seaborn</div>
+                        <div class="skill-chip">Plotly</div>
+                        <div class="skill-chip">Power BI</div>
+                    </div>
+                </div>
+                <!-- Model Deployment -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Model Deployment</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">Streamlit</div>
+                        <div class="skill-chip">Flask</div>
+                        <div class="skill-chip">MLOps</div>
+                        <div class="skill-chip">REST API</div>
+                    </div>
+                </div>
+                <!-- Databases & Tools -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Databases & Tools</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">MySQL</div>
+                        <div class="skill-chip">SQL Server</div>
+                        <div class="skill-chip">MongoDB</div>
+                        <div class="skill-chip">Jupyter Notebook</div>
+                        <div class="skill-chip">Google Colab</div>
+                        <div class="skill-chip">Git</div>
+                        <div class="skill-chip">GitHub</div>
+                        <div class="skill-chip">VS Code</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;My Projects /&gt;</span>
+                <h2 class="section-title">Data Science Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="assets/projects/churn.png" alt="Customer Churn Prediction" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <span class="project-date">02/2026</span>
+                        </div>
+                        <h3 class="project-title">Customer Churn Prediction using Machine Learning</h3>
+                        <div class="project-tech">
+                            <span>Python</span><span>Scikit-learn</span><span>XGBoost</span><span>Streamlit</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>Built end-to-end supervised ML pipeline to predict customer churn, performing EDA,
+                                feature engineering, and class imbalance handling using SMOTE.</li>
+                            <li>Trained and compared multiple classifiers (Logistic Regression, Random Forest, XGBoost);
+                                achieved <strong>92% accuracy</strong> and <strong>0.91 ROC-AUC</strong>.</li>
+                            <li>Automated data preprocessing including feature scaling, encoding, and train-test
+                                splitting, reducing pipeline setup time by <strong>80%</strong>.</li>
+                            <li>Deployed the model as an interactive Streamlit web app enabling real-time churn risk
+                                prediction for business users.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Shubhamnexus-prog" target="_blank" class="project-link"><i
+                                    class="fab fa-github"></i> Source Code</a>
+                            <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="assets/projects/fraud.png" alt="Credit Card Fraud Detection" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <span class="project-date">03/2026</span>
+                        </div>
+                        <h3 class="project-title">Credit Card Fraud Detection using Machine Learning</h3>
+                        <div class="project-tech">
+                            <span>Python</span><span>Scikit-learn</span><span>XGBoost</span><span>Pandas</span><span>Matplotlib</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>Analyzed a highly imbalanced dataset of 284,807 transactions (fraud rate: 0.17%);
+                                applied SMOTE and undersampling to address class imbalance.</li>
+                            <li>Engineered features and trained multiple classifiers; achieved <strong>99.2%
+                                    accuracy</strong> and <strong>0.97 Precision-Recall AUC</strong> on fraud class.
+                            </li>
+                            <li>Reduced false negatives by <strong>35%</strong> through threshold tuning, directly
+                                minimizing undetected fraudulent transactions.</li>
+                            <li>Visualized confusion matrix, ROC curve, and feature importance plots to communicate
+                                model performance to stakeholders.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Shubhamnexus-prog" target="_blank" class="project-link"><i
+                                    class="fab fa-github"></i> Source Code</a>
+                            <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="assets/projects/house.png" alt="House Price Prediction" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <span class="project-date">04/2026</span>
+                        </div>
+                        <h3 class="project-title">House Price Prediction using Advanced Regression</h3>
+                        <div class="project-tech">
+                            <span>Python</span><span>Scikit-learn</span><span>XGBoost</span><span>Pandas</span><span>Seaborn</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>Performed end-to-end EDA on 79 features of 1,460 housing records — identified skewness,
+                                outliers, and multicollinearity; applied log transformation.</li>
+                            <li>Engineered 15+ new features (age of house, total square footage, quality scores) and
+                                applied Label Encoding and One-Hot Encoding.</li>
+                            <li>Trained and stacked multiple regression models (Ridge, Lasso, XGBoost, Gradient
+                                Boosting); achieved <strong>R² = 0.91</strong> and RMSE of $18,500, <strong>top 15% on
+                                    Kaggle</strong>.</li>
+                            <li>Performed cross-validation and hyperparameter tuning using GridSearchCV to prevent
+                                overfitting.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Shubhamnexus-prog" target="_blank" class="project-link"><i
+                                    class="fab fa-github"></i> Source Code</a>
+                            <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="assets/projects/sentiment.png" alt="Sentiment Analysis on Product Reviews"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <span class="project-date">05/2026</span>
+                        </div>
+                        <h3 class="project-title">Sentiment Analysis on Product Reviews using NLP</h3>
+                        <div class="project-tech">
+                            <span>Python</span><span>NLTK</span><span>Scikit-learn</span><span>Pandas</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>Collected and preprocessed 10,000+ customer product reviews — text cleaning,
+                                tokenization, stop word removal, and TF-IDF vectorization.</li>
+                            <li>Built a Naive Bayes and Logistic Regression classifier to detect positive, negative, and
+                                neutral sentiment; achieved <strong>89% classification accuracy</strong>.</li>
+                            <li>Performed feature importance analysis to identify the most influential words driving
+                                customer sentiment across product categories.</li>
+                            <li>Delivered actionable insights on product feedback trends to support data-driven
+                                improvement decisions.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Shubhamnexus-prog" target="_blank" class="project-link"><i
+                                    class="fab fa-github"></i> Source Code</a>
+                            <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;Education /&gt;</span>
+                <h2 class="section-title">Education & Certifications</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="edu-content">
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <p class="edu-institution">Shambhunath Institute of Engineering & Technology, Jhalwa, Prayagraj,
+                            India</p>
+                        <div class="edu-meta">
+                            <span class="edu-date"><i class="fas fa-calendar-alt"></i> 2022 – 2025</span>
+                            <span class="edu-grade"><i class="fas fa-star"></i> CGPA: 7.61</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-card cert-card">
+                    <div class="edu-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="edu-content">
+                        <h3>Data Science and AI/ML</h3>
+                        <p class="edu-institution">Naresh i Technologies</p>
+                        <div class="edu-meta">
+                            <span class="edu-date"><i class="fas fa-calendar-alt"></i> 12/2025 – 04/2026</span>
+                            <span class="edu-grade"><i class="fas fa-award"></i> Certification</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;Contact /&gt;</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <img src="assets/contact-illustration.png" alt="Contact Illustration" class="contact-image">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:sg3359319@gmail.com">sg3359319@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919695980831">+91-9695980831</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hyderabad, Telangana, India</span>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://www.linkedin.com/in/shubham-gupta-2b04693a1" target="_blank"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Shubhamnexus-prog" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/_shub._gupta/" target="_blank" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="mailto:sg3359319@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Enter your message here"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <a href="#home" class="footer-logo">
+                    SHUBHAM GUPTA
+                </a>
+                <p class="footer-text">Turning data into actionable insights & impactful solutions.</p>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/shubham-gupta-2b04693a1" target="_blank"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Shubhamnexus-prog" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/_shub._gupta/" target="_blank" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="mailto:sg3359319@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shubham Gupta. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
